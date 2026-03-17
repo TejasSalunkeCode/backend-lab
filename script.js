@@ -35,3 +35,34 @@ var arr=[1,2,3,4];
 
 //? index of
 // console.log(arr.indexOf(32));
+
+
+//? object 
+// var obj={
+//     name:"Tejas",
+//     val:30,
+// }
+// Object.freeze(obj);
+// obj.val=90;
+// console.log(obj['name']);
+// console.log(obj['name']);
+
+
+//? Functions
+// function abcd(){
+//     return "ram ram jay shree ram...!";
+// }
+// let ans=abcd();
+// console.log(ans);
+
+
+//? async
+async function abcd(){
+    var blog=await fetch(`https://randomuser.me/api/`);
+    var ans = await blog.json();
+    
+    console.log(ans.results[0])
+}
+
+abcd();
+
