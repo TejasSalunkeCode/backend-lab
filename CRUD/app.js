@@ -13,6 +13,7 @@ app.get("/",function(req,res){
     res.render("index");
 })
 
+
 app.get("/read",function(req,res){
     res.render("read")
 })
